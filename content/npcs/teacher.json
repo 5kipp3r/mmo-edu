@@ -1,13 +1,20 @@
+
 {
   "schemaVersion": 1,
   "id": "teacher-example",
-  "name": "Guru",
+  "name": "Pak Guru",
   "kind": "teacher",
+  "x": 520,
+  "y": 270,
+  "color": "#7c4aa5",
   "behavior": {
     "mode": "static",
-    "interactions": ["dialogue", "quest-hint"]
+    "interactions": [
+      "dialogue",
+      "quest-hint"
+    ]
   },
   "dialogue": {
-    "default": "Selamat datang! Nanti saya bisa membantu memberi petunjuk kegiatan."
+    "default": "Selamat datang di sekolah! Jelajahi halaman ini. Nanti kamu bisa belajar, menyelesaikan quest, dan bertemu teman."
   }
 }
