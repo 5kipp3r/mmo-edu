@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "teacher-example",
+  "name": "Guru",
+  "kind": "teacher",
+  "behavior": {
+    "mode": "static",
+    "interactions": ["dialogue", "quest-hint"]
+  },
+  "dialogue": {
+    "default": "Selamat datang! Nanti saya bisa membantu memberi petunjuk kegiatan."
+  }
+}
