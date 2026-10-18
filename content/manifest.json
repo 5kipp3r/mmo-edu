@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "engineVersion": "0.1.0-stage0",
+  "startMap": "courtyard",
+  "modules": [
+    {
+      "id": "courtyard",
+      "type": "map",
+      "version": "0.1.0",
+      "path": "maps/courtyard.json",
+      "enabled": true
+    },
+    {
+      "id": "teacher-example",
+      "type": "npc",
+      "version": "0.1.0",
+      "path": "npcs/teacher.json",
+      "enabled": true
+    }
+  ]
+}
