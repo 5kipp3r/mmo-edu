@@ -1,3 +1,4 @@
+
 {
   "schemaVersion": 1,
   "id": "courtyard",
@@ -11,14 +12,81 @@
     "y": 340
   },
   "objects": [
-    { "id": "path-main", "kind": "path", "x": 330, "y": 300, "width": 300, "height": 54, "color": "#d8c69b" },
-    { "id": "path-left", "kind": "path", "x": 180, "y": 180, "width": 54, "height": 300, "color": "#d8c69b" },
-    { "id": "school-building", "kind": "building", "x": 360, "y": 75, "width": 240, "height": 130, "label": "SEKOLAH" },
-    { "id": "tree-1", "kind": "tree", "x": 105, "y": 100 },
-    { "id": "tree-2", "kind": "tree", "x": 810, "y": 105 },
-    { "id": "tree-3", "kind": "tree", "x": 120, "y": 490 },
-    { "id": "tree-4", "kind": "tree", "x": 820, "y": 475 },
-    { "id": "bench-1", "kind": "bench", "x": 675, "y": 365 },
-    { "id": "bench-2", "kind": "bench", "x": 265, "y": 390 }
+    {
+      "id": "path-main",
+      "kind": "path",
+      "x": 330,
+      "y": 300,
+      "width": 300,
+      "height": 54,
+      "color": "#d8c69b",
+      "solid": false
+    },
+    {
+      "id": "path-left",
+      "kind": "path",
+      "x": 180,
+      "y": 180,
+      "width": 54,
+      "height": 300,
+      "color": "#d8c69b",
+      "solid": false
+    },
+    {
+      "id": "school-building",
+      "kind": "building",
+      "x": 360,
+      "y": 75,
+      "width": 240,
+      "height": 130,
+      "label": "SEKOLAH",
+      "solid": true
+    },
+    {
+      "id": "tree-1",
+      "kind": "tree",
+      "x": 105,
+      "y": 100,
+      "solid": true
+    },
+    {
+      "id": "tree-2",
+      "kind": "tree",
+      "x": 810,
+      "y": 105,
+      "solid": true
+    },
+    {
+      "id": "tree-3",
+      "kind": "tree",
+      "x": 120,
+      "y": 490,
+      "solid": true
+    },
+    {
+      "id": "tree-4",
+      "kind": "tree",
+      "x": 820,
+      "y": 475,
+      "solid": true
+    },
+    {
+      "id": "bench-1",
+      "kind": "bench",
+      "x": 675,
+      "y": 365,
+      "width": 64,
+      "height": 25,
+      "solid": true
+    },
+    {
+      "id": "bench-2",
+      "kind": "bench",
+      "x": 265,
+      "y": 390,
+      "width": 64,
+      "height": 25,
+      "solid": true
+    }
   ]
 }
